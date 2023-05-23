@@ -28,7 +28,7 @@ html.dark .clock {
 body {
     margin: 0;
     height: 100vh;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Bruno Ace SC', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,6 +37,7 @@ body {
 
 .toggle {
     font-family: inherit;
+    font-size: 18px;
     background-color: var(--primary-color);
     color: var(--secondary-color);
     border: 0;
@@ -146,5 +147,3 @@ body {
 .clock-mark.mark-9 {
     transform: translate(-4300%, -100%) rotate(-90deg);
 }
-
-
