@@ -147,3 +147,64 @@ body {
 .clock-mark.mark-9 {
     transform: translate(-4300%, -100%) rotate(-90deg);
 }
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+    .clock {
+        width: 300px;
+        height: 300px;
+    }
+
+    .needle.hour {
+        height: 80px;
+    }
+
+    .needle.minute,
+    .needle.second {
+        height: 100px;
+    }
+
+    .time {
+        font-size: 40px;
+    }
+
+    .clock-mark {
+        display: none;
+    }
+
+    .toggle {
+        right: auto;
+        left: auto;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .clock {
+        width: 200px;
+        height: 200px;
+    }
+
+    .needle.hour {
+        height: 60px;
+    }
+
+    .needle.minute,
+    .needle.second {
+        height: 80px;
+    }
+
+    .time {
+        font-size: 30px;
+    }
+
+    .clock-mark {
+        display: none;
+    }
+
+    .toggle {
+        right: auto;
+        left: auto;
+    }
+}
