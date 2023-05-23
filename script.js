@@ -2,8 +2,7 @@ const hourEl = document.querySelector('.hour');
 const minuteEl = document.querySelector('.minute');
 const secondEl = document.querySelector('.second');
 const timeEl = document.querySelector('.time');
-const toggle = document.querySelector('.toggle');
-// const dateEl = document.querySelector('.date');
+// const toggle = document.querySelector('.toggle');
 
 // const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 // const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
@@ -37,6 +36,7 @@ function setTime() {
     secondEl.style.transform = `translate(-50%, -100%) rotate(${secondRotation}deg)`; // Apply rotation to the second hand
 
     timeEl.innerHTML = `${hoursForClock}:${minutes < 10 ? `0${minutes}` : minutes}`; // Display the current time
+    // dateEl.innerHTML = `${days[day]}, ${months[month]} <span class="circle">${date}</span>` // Display the current time
 }
 
 setInterval(setTime, 1000); // Update the clock every second
