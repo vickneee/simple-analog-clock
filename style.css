@@ -148,7 +148,7 @@ body {
     transform: translate(-4300%, -100%) rotate(-90deg);
 }
 
-/* Media Queries */
+/*** Media Queries ***/
 
 @media (max-width: 768px) {
     .clock {
