@@ -1,3 +1,5 @@
+/*@import 'animate.css';*/
+
 * {
     box-sizing: border-box;
 }
@@ -120,6 +122,8 @@ body {
 
 .time {
     font-size: 60px;
+    animation: wobble; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 6s; /* don't forget to set a duration! */
 }
 
 .clock-mark {
